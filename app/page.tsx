@@ -103,6 +103,7 @@ export default function Home() {
         <h3 className="text-4xl font-normal text-gray-custom mb-8">
           At The African Leadership University
         </h3>
+
         <div className="">
           <p className="font-bold text-2xl">
             Come dazzle the world with your creative mind. We'll give you the
@@ -520,7 +521,8 @@ export default function Home() {
         <div className="footer-start pt-12">
           <h1 className="text-5xl font-bold pb-4">Where we are going next.</h1>
           <p className="text-3xl text-gray-custom font-normal pb-8">
-            If you are not based in Kigali but would love to invite CodeXtreme  <br />
+            If you are not based in Kigali but would love to invite CodeXtreme{" "}
+            <br />
             to your community next, please fill this form.
           </p>
           <p className="underline text-gray-custom text-3xl font-normal pb-20 ">
@@ -530,37 +532,40 @@ export default function Home() {
             <div className="">
               <h1 className="text-3xl font-bold mb-4">CodeXtreme</h1>
               <u className="text-gray-custom text-2xl">
-              <ul  className="space-y-4 ">
-                <li> Code of Conduct </li>
-                <li>Judging Criteria</li>
-                <li>Official Schedule </li>
-                <li>Become a Speaker </li>
-              </ul>
+                <ul className="space-y-4 ">
+                  <li> Code of Conduct </li>
+                  <li>Judging Criteria</li>
+                  <li>Official Schedule </li>
+                  <li>Become a Speaker </li>
+                </ul>
               </u>
-             
             </div>
             <div className="text-2xl ">
               <h1 className="text-3xl font-bold mb-4">For Sponsors</h1>
-             
+
               <ul className="text-gray-custom ">
                 <u className="">
-                <li className="mb-4">The Event</li>
-                  </u>
-               <u>
-               <li>Perks & Packages</li>
-               </u>
+                  <li className="mb-4">The Event</li>
+                </u>
+                <u>
+                  <li>Perks & Packages</li>
+                </u>
               </ul>
             </div>
             <div>
               <h1 className="text-3xl font-bold mb-4"> Support</h1>
               <ul className="space-y-4 text-2xl text-gray-custom ">
-                <li className="text-2xl ">Email: <u>codextreme@infinitloop.io </u></li>
+                <li className="text-2xl ">
+                  Email: <u>codextreme@infinitloop.io </u>
+                </li>
                 <li>Phone: +250787104022</li>
                 <li>Whatsapp: +250737026499</li>
               </ul>
             </div>
           </div>
-          <p className="text-center text-3xl text-gray-custom font-normal">&copy; 2023 CodeXtreme</p>
+          <p className="text-center text-3xl text-gray-custom font-normal">
+            &copy; 2023 CodeXtreme
+          </p>
         </div>
       </footer>
     </div>
