@@ -1,6 +1,18 @@
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
+@import url('https://fonts.googleapis.com/css2?family=Space+Mono:wght@400;700&display=swap');
+
+/* styles/globals.css */
+
+@font-face {
+  font-family: 'Space Mono';
+  src: url('/fonts/SpaceMono-Regular.ttf') format('truetype'),
+       url('/fonts/SpaceMono-Bold.ttf') format('truetype');
+  font-weight: 400;
+  font-style: normal;
+}
+
 
 :root {
   --foreground-rgb: 0, 0, 0;
@@ -16,7 +28,7 @@
   }
 }
 
-body {
+/* body {
   color: rgb(var(--foreground-rgb));
   background: linear-gradient(
       to bottom,
@@ -30,4 +42,135 @@ body {
   .text-balance {
     text-wrap: balance;
   }
+} */
+
+.logo{
+  width: 250px;
+  height: 66px;
+  border-radius: 25px;
+
+}
+.learn{
+  border-radius: 25px;
+  width: 150px;
+  height: 138px;
+}
+/* your-custom-styles.css */
+
+/* Pagination dots */
+.swiper-pagination-bullet {
+  width: 12px;
+  height: 12px;
+  background-color: #000; /* Change to your desired color */
+  opacity: 1;
+}
+
+.swiper-pagination-bullet-active {
+  background-color: #ff6347; /* Change to your desired active color */
+}
+
+/* Optionally, add transitions to make the color change smoother */
+.swiper-pagination-bullet {
+  transition: background-color 0.3s;
+}
+
+.learn-child{
+  border-radius: 25px;
+  width: 849px;
+  height: 138px;
+  margin-bottom: 80px;
+}
+.interest{
+  width: 342px;
+  height: 66px;
+  border-radius: 25px;
+}
+.max{
+  max-width: 582px;
+}
+.huge-font {
+  font-size: 150px;
+}
+.medium-font {
+  font-size: 50px;
+}
+.track{
+  max-width: 1200px;
+}
+.prize-text{
+  max-width: 786px;
+}
+.faq-text{
+  margin-bottom: 118px;
+}
+
+.faq-box{
+  width: 1243px;
+}
+
+.tracks{
+  width: 200px;
+  height: 200px;
+  border-radius: 50px;
+}
+.track-bottom{
+  margin-bottom: 70.06px;
+}
+.track-grid{
+  margin-left: 169px;
+}
+.track-end{
+  margin-bottom: 194.09px;
+}
+.prize{
+  margin-bottom: 124.06px;
+}
+.schedule{
+  border-radius: 25px;
+  width: 155px;
+  height: 66px;
+}
+
+.circle {
+  width: 100px;
+  height: 100px;
+  border-radius: 50%;
+  overflow: hidden;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.circle img {
+  width: 100%;
+  height: auto;
+}
+.logo-container {
+  margin-left: 74.01px;
+}
+.header-top{
+  margin-top: 84px;
+}
+.button-right{
+  margin-right: 106.08px;
+}
+.logo-text{
+  margin-top: 236.01px;
+}
+.register-button{
+  margin-bottom: 143.06px;
+}
+
+.day{
+  margin-top: 85.05px;
+}
+.career{
+  margin-bottom: 186.01px;
+}
+
+.faq-end{
+  margin-top: 200px;
+}
+.footer-start{
+  margin-left: 74.01px; 
 }
